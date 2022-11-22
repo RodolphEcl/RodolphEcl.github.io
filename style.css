@@ -223,7 +223,7 @@ footer{
         height: 30vh;
     }
     .part-button{
-        height: 30vh;
+        height: auto;
     }
 
     header {
