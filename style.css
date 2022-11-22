@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Montserrat, sans-serif;
+}
+
+/*Header Part*/
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#020d6bbd,#020c66),
+    url("Crypto Bank.png");
+    
+    background-size: 50vw;
+    background-position: right;
+}
+
+#title {
+    width: 320px;
+    height: 40vh;
+    font-size: 2rem;
+    color: rgb(255, 255, 255) ;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    padding-left: 20vw;
+}
+
+#pheader{
+    width:80vw;
+    height:10vh;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20vw;
+
+}
+
+#bheader{
+    width: 100vw;
+    height: 10vh;
+
+}
+
+
+#buttonheader{
+    font-size: 2rem;
+    border-radius: 25px;
+    font-weight: 300;
+    border: 0.1rem solid #ffffff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 20vw;
+}
+
+#buttonheader:hover{
+    
+    border: 0.2rem solid #050597a8;
+    background-color: transparent;
+    color: #fff;
+}
+
+/*main part*/
+
+#main {
+    display:flex;
+    flex-direction: column;
+    background-image: linear-gradient(#020c66,#010636);
+    color: #ffffffbd;
+    
+}
+
+.part{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part p{
+    width: 30vw;
+    font-size: 20px;
+}
+
+.part h2 {
+    width: 30vw;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.part img {
+    width: 30vw;
+} 
+
+.part .pic1 {
+    width: 20vw;
+    height: 50vh;
+}
+
+
+
+/* Button Part*/
+
+.part-button{
+    height: 40vh;
+}
+
+.startbutton {
+    font-size: 2rem;
+    border-radius: 25px;
+    font-weight: 300;
+    border: 0.2rem solid #ffffff;
+    background-color: #080735a8;
+    padding: 15px 10vw;
+    width:30wh;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.startbutton:hover{
+    border: 0.1rem solid #d1d1d1;
+    background-color: transparent;
+    color: #bdc9ff;
+}
+
+/*Footer Part */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(#010636,rgb(0, 48, 138));
+
+}
+
+#first_part_footer {
+    width:100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 0;
+     
+}
+
+#first_part_footer li {
+    list-style: none;
+}
+
+#first_part_footer li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+#second_part_footer {
+    padding: 2vh ;
+}
+
+#first_part_footer li a:hover {
+    color: #020c6b;
+}
+
+#third_part_footer {
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
+}
+
+#third_part_footer ul {
+    display:flex;
+    width: 20vw;
+    justify-content: space-around;
+
+}
+
+#third_part_footer li {
+    list-style: none;
+
+}
+
+#third_part_footer img {
+    width:5vw;
+}
+
+
+
+@media (max-width: 900px){
+    .part{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .part p{
+        width: 80vw;
+        font-size: 1.5rem;
+    }
+    
+    .part h2 {
+        width: 100vw;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Oswald', sans-serif;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+    }
+    
+    .part img {
+        width: 50vw;
+    } 
+    
+    .part .pic1 {
+        width: 50vw;
+        height: 30vh;
+    }
+    .part-button{
+        height: 30vh;
+    }
+    
+}
+
+@media(max-width:390px){
+    header{
+        height: 50vh;
+        width: 100vw;
+        align-items: center;
+    }
+    #title {
+        width: 100vw;
+        height: auto;
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255) ;
+        padding-top: 7vh;
+        padding-bottom: 0vh;
+        padding-left: 5vw;
+    }
+    
+    #pheader{
+        width:80vw;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    #bheader{
+        width: 100vw;
+    }
+    
+    
+    #buttonheader{
+        font-size: 1.5rem;
+        border-radius: 25px;
+        font-weight: 300;
+        border: 0.1rem solid #ffffff;
+        background-color: transparent;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px 40px;
+        cursor: pointer;
+        transition: 0.5s;
+        text-decoration: none;
+       
+    }
+    
+}

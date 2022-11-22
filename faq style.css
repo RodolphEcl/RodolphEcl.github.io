@@ -1,0 +1,67 @@
+.everything{
+    background-image: linear-gradient(#020d6bbd,#020c66),url("bank pic.jpg");
+    background-size: 300vh;
+}
+
+
+h1 {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+
+article {
+    padding-left: 10vw;
+}
+
+.question {
+    padding-bottom: 10vh;
+    width: 500px;
+    
+}
+
+.question h2 {
+    padding-bottom: 2vh;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.question p {
+    font-size: 15px;
+    color: rgb(175, 174, 174);
+}
+
+@media (min-width: 551px) {
+    article {
+        width: 30vw;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .question p{
+        font-size: 25px;
+    }
+
+    .question h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:550px){
+    .question{
+        width: 80vw;
+    }
+
+    .question h2 {
+        padding-bottom: 2vh;
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    
+    .question p {
+        font-size: 1.5rem;
+        color: rgb(175, 174, 174);
+    }
+}
