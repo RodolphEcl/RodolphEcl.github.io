@@ -11,7 +11,6 @@ header{
     height: 100vh;
     background-image: linear-gradient(#020d6bbd,#020c66),
     url("Crypto Bank.png");
-    
     background-size: 50vw;
     background-position: right;
 }
@@ -194,7 +193,7 @@ footer{
 
 @media (max-width: 900px){
     .part{
-        height: 60vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -226,14 +225,17 @@ footer{
     .part-button{
         height: 30vh;
     }
+
+    header {
+        height: auto;
+        padding-bottom: 10vh;
+    }
     
 }
 
 @media(max-width:390px){
     header{
-        height: 50vh;
-        width: 100vw;
-        align-items: center;
+        height: auto
     }
     #title {
         width: 100vw;
@@ -241,7 +243,7 @@ footer{
         font-size: 1.6rem;
         color: rgb(255, 255, 255) ;
         padding-top: 7vh;
-        padding-bottom: 0vh;
+        padding-bottom: 5vh;
         padding-left: 5vw;
     }
     
